@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    background-color: bisque;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="para1">
+        <p>Task:1 printing hello world</p>
+        <h2></h2>
+    </div>
+    <hr>
+    <div id="para2">
+        <p>Task:2  Adding two numbers</p>
+        <label for="">Enter a num1:</label>
+        <input type="num" id="num1"><br><br>
+        <label for="">Enter a num2:</label>
+        <input type="num" id="num2">
+        <button onclick="add()">Add</button>
+        <p id="ans">Result:</p>
+    </div>
+    <hr>
+    <div id="para3">
+        <p>Task:3 printing the square root of number</p>
+        <label for="">Enter a num</label>
+        <input type="num" id="sqr">
+        <button onclick="sqr()">calculate</button>
+        <p id="ans1">Result:</p>
+    </div>
+    <hr>
+    <div id="para4">
+        <p>Task:4 checking the number is odd or even</p>
+        <label for="">Enter a num</label>
+        <input type="number" id="evenodd">
+        <button onclick="verify()">verify</button>
+        <p id="ans2"></p>
+</div>
+<hr>
+<div id="para5">
+    <p>Task:5  Generating random number</p>
+    <button onclick="randomnum()">Generate a random number</button>
+    <p id="ans3"></p>
+</div>
+<hr>
+<div id="para6">
+    <p>Task:6  printing largest three num</p>
+    <label for="">Enter a num1:</label>
+    <input type="num" id="val0"><br><br>
+    <label for="">Enter a num2:</label>
+    <input type="num" id="val00"><br><br>
+    <label for="">Enter a num3:</label>
+    <input type="num" id="val000">
+    
+    <button onclick="Max()">click</button>
+    <p id="ans4"></p>
+</div>
+<hr>
+<div id="para7">
+    <p>Task:7  printing name</p>
+    <label for="">Enter your name:</label>
+    <input type="text" id="name">
+    <button onclick="display()">click</button>
+    <p id="names"></p>
+</div>
+<hr>
+<div id="para8">
+    <p>Task:8 checking the last digit</p>
+    <input type="number" id="value1" placeholder="Enter first number"><br><br>
+    <input type="number" id="value2" placeholder="Enter second number">
+    <button onclick="checkSameDigits()">check</button>
+    <p id="output1"></p>
+</div>
+<hr>
+
+
+<div id="para9">
+    <p>Task:9 Replacing the character</p>
+    <input type="text" id="input" placeholder="Enter a string"><br><br>
+    <input type="text" id="oldChar" placeholder="Enetr a old char"><br><br>
+    <input type="text" id="newChar" placeholder="Enter a new char">
+    <button onclick="replacechar()">Replace</button>
+    <p id="view"></p>
+</div>
+<hr>
+<div id="para10">
+    <p>Task:10 Appending two arrays </p>
+    <input type="text" id="a" placeholder="Enter a array"><br><br>
+    <input type="text" id="b" placeholder="Enter a array">
+    <button onclick="appendArrays()">Append</button>
+    <p id="show"></p>
+</div>
+</div>
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
